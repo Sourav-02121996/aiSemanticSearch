@@ -94,11 +94,11 @@ Top results:
 
 **Home Page - Search Interface:**
 
-![Home Page 1](/Users/souravdas/Documents/aiSemanticSearch/HomePage1.png)
+![HomePage1](/Users/souravdas/Documents/aiSemanticSearch/HomePage1.png)
 
 **Search Results:**
 
-![Home Page 2](/Users/souravdas/Documents/aiSemanticSearch/HomePage2.png)
+![HomePage2](/Users/souravdas/Documents/aiSemanticSearch/HomePage2.png)
 
 ---
 
