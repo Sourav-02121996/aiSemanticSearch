@@ -183,9 +183,14 @@ pytest tests/
 - Benchmarking & Evaluation: latency, recall, memory  
 - NumPy, Pandas, Matplotlib  
 - PyTest unit testing
-
+- 
 ## Acknowledgments
 
 - [Sentence-Transformers](https://www.sbert.net/)  
 - [FAISS](https://github.com/facebookresearch/faiss)  
 - [AG News Dataset](https://huggingface.co/datasets/ag_news)
+
+---
+
+## Issues Faced
+- Because the artifact files exceed typical size limits, a public deployment would require paid storage and bandwidth.
