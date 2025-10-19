@@ -7,7 +7,11 @@ TOP_K = 10
 N_CORPUS = 120000
 N_QUERIES = 2000
 
-ARTIFACT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "artifacts")
+# Check if running on Render with mounted disk
+if os.path.exists("/mnt/disk/artifacts"):
+    ARTIFACT_DIR = "/mnt/disk/artifacts"
+else:
+    ARTIFACT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "artifacts")
 
 os.makedirs(ARTIFACT_DIR, exist_ok=True)
 RESULTS_CSV = os.path.join(ARTIFACT_DIR, "results.csv")

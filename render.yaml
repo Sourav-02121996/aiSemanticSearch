@@ -1,0 +1,16 @@
+
+services:
+  - type: web
+    name: semantic-search-app
+    env: python
+    region: oregon
+    plan: standard  # 2GB RAM, needed for your models
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run streamlit_app.py --server.port $PORT --server.address 0.0.0.0 --server.enableCORS false --server.enableXsrfProtection false
+    disk:
+      name: artifacts-disk
+      mountPath: /mnt/disk/artifacts
+      sizeGB: 3
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
