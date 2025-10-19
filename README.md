@@ -90,16 +90,13 @@ Top results:
 
 ---
 
-### Application Screenshots
+## Application Screenshots
 
-**Home Page - Search Interface:**
+**Home Page – Search Interface**
+![Home Page – Search Interface](./HomePage1.png)
 
-![HomePage1.png](/Users/souravdas/Documents/aiSemanticSearch/HomePage1.png)
-
-**Search Results:**
-
-![HomePage2.png](/Users/souravdas/Documents/aiSemanticSearch/HomePage2.png)
-
+**Search Results**
+![Search Results](./HomePage2.png)
 ---
 
 ## Configuration
